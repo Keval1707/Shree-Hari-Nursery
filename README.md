@@ -1,54 +1,101 @@
-# React + TypeScript + Vite
+# Shree Hari Nursery Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official website of **Shree Hari Nursery**! This website showcases the variety of plants, flowers, and gardening essentials available at our nursery. It's designed to help plant lovers explore our offerings and learn more about plant care and our services.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Technologies Used](#technologies-used)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
 
-## Expanding the ESLint configuration
+## Introduction
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Shree Hari Nursery is a trusted destination for high-quality plants, flowers, and gardening accessories. Our mission is to provide plant enthusiasts with the best products and knowledge to help them nurture their green spaces. This website serves as an online presence where customers can explore our gallery, learn about the nursery, and get in touch with us.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **Home Page**: Displays an overview of featured plants and flowers available at the nursery.
+- **About Page**: Learn about the history, mission, and values of Shree Hari Nursery.
+- **Gallery Page**: Browse a curated collection of plants and flowers with detailed descriptions.
+- **FAQs Page**: Get answers to commonly asked questions about our products and services.
+- **Contact Page**: Reach out to us for inquiries or assistance.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Installation
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/shree-hari-nursery.git
+   ```
+
+2. **Navigate to the project directory**:
+
+   ```bash
+   cd shree-hari-nursery
+   ```
+
+3. **Install dependencies**:
+
+   If you are using npm:
+
+   ```bash
+   npm install
+   ```
+
+   If you are using yarn:
+
+   ```bash
+   yarn install
+   ```
+
+4. **Start the application**:
+
+   ```bash
+   npm run dev
+   ```
+
+   or
+
+   ```bash
+   yarn run dev
+   ```
+
+5. **Visit** the app on `http://localhost:5173`.
+
+## Technologies Used
+
+- **Frontend**: vite+React+ts
+- **State Management**: React hooks 
+- **Styling**: CSS / Styled-components 
+- **Build Tool**: Vite
+
+
+## Contributing
+
+We welcome contributions to improve the website. If you'd like to contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to your branch (`git push origin feature-branch`).
+6. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or support, feel free to reach out to us at:
+
+- **Email**: [contact@shreeharinursery.com](mailto:contact@shreeharinursery.com)
+- **Phone**: +91 9624969119
+
+---
