@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "name": "Red Rose",
+        "path": "/Products/1.jpg",
+        "Category": "Flowering Plants",
+        "desc": "A beautiful red rose plant with vibrant red petals.",
+        "available":true
+    },
+    {
+        "id": 2,
+        "name": "Sunflower",
+        "path": "/Products/2.jpg",
+        "Category": "Outdoor Plants",
+        "desc": "A tall sunflower that thrives in full sunlight.",
+        "available":true
+    },
+    {
+        "id": 3,
+        "name": "Apple Tree",
+        "path": "/Products/3.jpg",
+        "Category": "Fruits & Vegetables",
+        "desc": "A young apple tree that produces fresh and juicy apples.",
+        "available":true
+    },
+    {
+        "id": 4,
+        "name": "Daisy",
+        "path": "/Products/4.jpg",
+        "Category": "Flowering Plants",
+        "desc": "A simple yet elegant daisy plant with white petals.",
+        "available":true
+    },
+    {
+        "id": 5,
+        "name": "Lily Plant",
+        "path": "/Products/5.jpg",
+        "Category": "Flowering Plants",
+        "desc": "A fragrant lily plant, ideal for gardens and home decor.",
+        "available":true
+    },
+    {
+        "id": 6,
+        "name": "Gardening Tool Set",
+        "path": "/Products/6.jpg",
+        "Category": "Gardening Tools",
+        "desc": "A complete set of essential gardening tools.",
+        "available":true
+    },
+    {
+        "id": 7,
+        "name": "Cherry Blossom Tree",
+        "path": "/Products/7.jpg",
+        "Category": "Outdoor Plants",
+        "desc": "A stunning cherry blossom tree that blooms in spring.",
+        "available":true
+    },
+    {
+        "id": 8,
+        "name": "Mango Sapling",
+        "path": "/Products/8.jpg",
+        "Category": "Fruits & Vegetables",
+        "desc": "A young mango plant that grows into a fruit-bearing tree.",
+        "available":true
+    },
+    {
+        "id": 9,
+        "name": "Jasmine Plant",
+        "path": "/Products/9.jpg",
+        "Category": "Herbs",
+        "desc": "A fragrant jasmine plant, perfect for home gardens.",
+        "available":true
+    },
+    {
+        "id": 10,
+        "name": "Clay Pots",
+        "path": "/Products/10.jpg",
+        "Category": "Pots & Planters",
+        "desc": "A set of eco-friendly clay pots for planting.",
+        "available":true
+    },
+    {
+        "id": 11,
+        "name": "Daffodil Bulbs",
+        "path": "/Products/11.jpg",
+        "Category": "Seeds",
+        "desc": "High-quality daffodil bulbs for garden planting.",
+        "available":true
+    },
+    {
+        "id": 12,
+        "name": "Peony Plant",
+        "path": "/Products/12.jpg",
+        "Category": "Flowering Plants",
+        "desc": "A lush peony plant with large, colorful blooms.",
+        "available":true
+    },
+    {
+        "id": 13,
+        "name": "Carrot Seeds",
+        "path": "/Products/13.jpg",
+        "Category": "Seeds",
+        "desc": "Premium carrot seeds for home gardening.",
+        "available":true
+    },
+    {
+        "id": 14,
+        "name": "Hydrangea Plant",
+        "path": "/Products/14.jpg",
+        "Category": "Flowering Plants",
+        "desc": "A hydrangea plant with large, color-changing flowers.",
+        "available":true
+    },
+    {
+        "id": 15,
+        "name": "Organic Fertilizer",
+        "path": "/Products/15.jpg",
+        "Category": "Soil & Fertilizers",
+        "desc": "A natural fertilizer that boosts plant growth.",
+        "available":true
+    },
+    {
+        "id": 16,
+        "name": "Gladiolus Bulbs",
+        "path": "/Products/16.jpg",
+        "Category": "Seeds",
+        "desc": "Gladiolus bulbs for planting vibrant, tall flowers.",
+        "available":true
+    },
+    {
+        "id": 17,
+        "name": "Gardenia Plant",
+        "path": "/Products/17.jpg",
+        "Category": "Flowering Plants",
+        "desc": "A white gardenia plant known for its fragrant flowers.",
+        "available":true
+    },
+    {
+        "id": 18,
+        "name": "Tomato Plant",
+        "path": "/Products/18.jpg",
+        "Category": "Fruits & Vegetables",
+        "desc": "A healthy tomato plant that produces fresh tomatoes.",
+        "available":true
+    },
+    {
+        "id": 19,
+        "name": "Poppy Seeds",
+        "path": "/Products/19.jpg",
+        "Category": "Seeds",
+        "desc": "High-quality poppy seeds for garden planting.",
+        "available":true
+    },
+    {
+        "id": 20,
+        "name": "Hibiscus Plant",
+        "path": "/Products/20.jpg",
+        "Category": "Flowering Plants",
+        "desc": "A vibrant hibiscus plant, perfect for tropical gardens.",
+        "available":true
+    }
+]

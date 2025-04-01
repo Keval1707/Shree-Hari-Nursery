@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  /* text-align: center; */
+  overflow-y: scroll; /* Ensures scrolling works */
+  scrollbar-width: none; /* Hides scrollbar in Firefox */
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+*::-webkit-scrollbar {
+  display: none;
+}

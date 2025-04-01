@@ -1,0 +1,157 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 5rem;
+  /* z-index: 1; */
+  position: relative;
+}
+.Bringing-Nature {
+  width: 100%;
+  display: flex;
+}
+.Bringing-Nature .content {
+  width: 100%;
+}
+
+.Bringing-Nature .content p {
+  width: 100%;
+  font-size: 22px;
+}
+.Bringing-Nature .imas {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+.Bringing-Nature .imas video {
+  height: 100%;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+section {
+  margin-block: 1rem;
+}
+.Why-Choose-Us {
+  text-align: center;
+  width: 100%;
+}
+.Why-Choose-Us .cards {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+.Why-Choose-Us .cards .card {
+  background-color: aquamarine;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  transition: ease-out 0.4s;
+  border-radius: 1rem;
+}
+.Why-Choose-Us .cards .card p {
+  text-align: center;
+}
+.Why-Choose-Us .cards .card:hover {
+  scale: 1.1;
+}
+.Who-we-are {
+  display: flex;
+  gap: 1rem;
+}
+.Who-we-are .images {
+  width: 100%;
+}
+.Who-we-are .images img {
+  max-width: 50%;
+  padding-inline: 1rem;
+  border-radius: 10px;
+}
+.Content-form {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-form {
+  width: 100%;
+}
+.contact-form textarea {
+  resize: vertical;
+}
+.Gallery-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+.Gallery-home button {
+  padding: 0.51rem 1rem;
+  color: #004d40; /* Dark teal for better contrast */
+  background-color: #7fffd4; /* Aquamarine background */
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Gallery-home button:hover {
+  background-color: #66d4b2; /* Slightly darker shade on hover */
+  transform: scale(1.05);
+}
+
+.Gallery-home button:active {
+  background-color: #5cb89e; /* Even darker shade when clicked */
+  transform: scale(0.98);
+}
+
+@media (max-width: 1024px) {
+  .Bringing-Nature {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+  .Bringing-Nature .content p {
+    text-align: justify;
+  }
+  .Bringing-Nature .content p,
+  .Bringing-Nature .imas {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  .Bringing-Nature .imas video {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Why-Choose-Us .cards {
+    flex-direction: column;
+    padding: 0;
+  }
+  .Who-we-are {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1.5rem;
+  }
+  .paragraph {
+    white-space: wrap;
+  }
+  .contact-form {
+    padding: 1rem;
+  }
+  
+}
