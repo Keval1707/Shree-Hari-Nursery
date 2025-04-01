@@ -1,0 +1,74 @@
+.about-container {
+  padding: 5rem;
+  background-color: #fff; /* Fix: #fff instead of fff */
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Increased gap between sections */
+}
+
+.about-container .about-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.about-container .about-header h1 {
+  font-size: 2.5rem;
+  color: #4caf50; /* Adjust header color */
+}
+
+.about-container .about-header p {
+  width: 60%; /* Increased width for better readability */
+  margin: 1rem auto; /* Center the text */
+  font-size: 1.1rem;
+}
+
+.about-container .about-story,
+.about-container .about-values {
+  padding: 1.5rem 2rem;
+  display: flex;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+  align-items: center; /* Vertically center the content */
+  justify-content: space-around;
+}
+
+.about-container .about-story img,
+.about-container .about-values img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.about-container .content {
+  flex-basis: 60%; /* Content takes up 60% of the width */
+  padding-right: 2rem; /* Add some space between content and image */
+}
+
+.about-container .content h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.about-container .content p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* List styling for values section */
+.about-container .about-values ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-container .about-values li {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
