@@ -32,7 +32,7 @@ const Contact: React.FC = () => {
               <a href="https://wa.me/919825665630">Chat on WhatsApp</a>
             </p>
             <p>
-              <strong>Address:</strong> 123 Green Lane, Garden City
+              <strong>Address:</strong> Shree Hari Nursery, Patapur, Junagadh, Gujarat 362263
             </p>
             <p>
               <strong>Business Hours:</strong>
