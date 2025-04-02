@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  shree-hari-nursery:
+    container_name: shree-hari-nursery
+    build: .
+    ports:
+      - "9094:9094"
+    environment:
+      - NODE_ENV=production
+    networks:
+      - shree-hari-nursery
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9094"]
+      interval: 30s
+      retries: 3
+      start_period: 10s
+      timeout: 5s
+
+networks:
+  shree-hari-nursery:
+    driver: bridge
