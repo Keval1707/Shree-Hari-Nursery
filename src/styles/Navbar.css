@@ -120,6 +120,7 @@
     padding: 1rem 0;
     display: none;
     transition: all 0.3s ease-in-out;
+    z-index: 99;
   }
 
   .nav-links.open {
