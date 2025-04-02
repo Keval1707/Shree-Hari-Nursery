@@ -57,7 +57,7 @@ const About: React.FC = () => {
             </li>
           </ul>
         </div>
-        <img src="./Products/1.webp" alt="Our Values" />
+        <img src="./Products/6.webp" alt="Our Values" />
       </div>
     </div>
   );

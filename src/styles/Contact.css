@@ -3,7 +3,6 @@
   padding: 3rem;
   text-align: center;
   background: linear-gradient(135deg, #e8f5e9, #ffffff);
-  /* min-height: 100vh; */
 }
 
 /* Side-by-Side Layout */
@@ -25,22 +24,26 @@
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   text-align: left;
+  transition: all 0.3s ease-in-out;
 }
 
 .contact-details h3 {
   margin-bottom: 1rem;
   color: #333;
+  font-size: 1.5rem;
 }
 
 .contact-details p {
   font-size: 1.1rem;
   margin: 0.5rem 0;
+  line-height: 1.5;
 }
 
 .contact-details a {
   text-decoration: none;
   color: #2c7a7b;
   font-weight: bold;
+  transition: color 0.3s ease-in-out;
 }
 
 .contact-details a:hover {
@@ -55,14 +58,18 @@
   border-radius: 12px;
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
   backdrop-filter: blur(10px);
+  transition: all 0.3s ease-in-out;
 }
 
-.contact-form h2{
+.contact-form h2 {
   text-align: center;
+  font-size: 1.8rem;
 }
+
 .contact-form h3 {
   margin-bottom: 1rem;
   color: #333;
+  font-size: 1.4rem;
 }
 
 /* Input fields */
@@ -106,26 +113,45 @@
 /* Full-Width Google Map */
 .map-container {
   padding-inline: 5rem;
-  margin: 3rem;
+  margin: 3rem auto;
   width: 100%;
+  min-height: 450px;
 }
 
 .map-container iframe {
   width: 100%;
-  height: 450px;
+  min-height: 450px;
   border: none;
   border-radius: 10px;
-
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+  .contact-container {
+    padding: 2rem;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .contact-details,
+  .contact-form {
+    width: 80%;
+  }
+
+  .contact-form h2 {
+    font-size: 1.6rem;
+  }
+}
+
 @media (max-width: 768px) {
   .contact-container {
-    padding: 0.75rem;
+    padding: 1.5rem;
   }
-  .contact-form{
-    padding: 1rem;
-  }
+
   .contact-content {
     flex-direction: column;
     align-items: center;
@@ -133,13 +159,67 @@
 
   .contact-details,
   .contact-form {
-    width: 100%;
+    width: 90%;
+    padding: 1.5rem;
   }
+
+  .contact-details h3,
+  .contact-form h3 {
+    font-size: 1.3rem;
+  }
+
+  .contact-details p {
+    font-size: 1rem;
+  }
+
   .map-container {
     padding: 1rem;
   }
 
   .map-container iframe {
     height: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 1rem;
+    /* margin-bottom: 5rem; */
+  }
+
+  .contact-details,
+  .contact-form {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .contact-details h3,
+  .contact-form h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact-details p {
+    font-size: 0.95rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .contact-form button {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .map-container {
+    padding: 0.5rem;
+    /* background-color: red; */
+    /* height: 100%; */
+  }
+
+  .map-container iframe {
+    height: 300px;
   }
 }
