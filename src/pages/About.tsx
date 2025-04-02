@@ -30,7 +30,7 @@ const About: React.FC = () => {
             space.
           </p>
         </div>
-        <img src="./Products/1.jpg" alt="Our Story" />
+        <img src="./Products/1.webp" alt="Our Story" />
       </div>
       <div className="about-values">
         <div className="content">
@@ -57,7 +57,7 @@ const About: React.FC = () => {
             </li>
           </ul>
         </div>
-        <img src="./Products/1.jpg" alt="Our Values" />
+        <img src="./Products/1.webp" alt="Our Values" />
       </div>
     </div>
   );

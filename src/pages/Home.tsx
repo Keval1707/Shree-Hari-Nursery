@@ -71,8 +71,8 @@ const Home: React.FC<HomePropos> = ({ data = [] }) => {
 
         <section className="Who-we-are">
           <div className="images">
-            <img src="/Products/30.jpg" alt="" />
-            <img src="/Products/31.jpg" alt="" />
+            <img src="/Products/30.webp" alt="" />
+            <img src="/Products/31.webp" alt="" />
           </div>
           <div className="content">
             <h2>Who We Are?</h2>
