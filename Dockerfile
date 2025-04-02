@@ -4,9 +4,11 @@
     # Set working directory
     WORKDIR /app
     
-    # Copy package files and install dependencies
+    # Copy package files separately to leverage Docker caching
     COPY package*.json ./
-    RUN npm install --frozen-lockfile
+    
+    # Install dependencies while handling peer dependency conflicts
+    RUN npm install --frozen-lockfile --legacy-peer-deps
     
     # Copy project files
     COPY . .
@@ -24,8 +26,8 @@
     COPY --from=builder /app/dist ./dist
     COPY package*.json ./
     
-    # Install only production dependencies
-    RUN npm install --frozen-lockfile --only=production
+    # Install only production dependencies (handling peer dependency issues)
+    RUN npm install --frozen-lockfile --legacy-peer-deps --only=production
     
     # Install "serve" to serve the built files
     RUN npm install -g serve
